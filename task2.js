@@ -1,3 +1,5 @@
+// 2634: filter elements from array
+
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
 function greaterThan(item){
@@ -24,4 +26,5 @@ var filter = function(arr, fn) {
 
 console.log(filter(array, greaterThan));  
 console.log(filter(array, firstIndex));  
+
 console.log(filter(array, plusOne));       
