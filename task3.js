@@ -1,3 +1,5 @@
+// 2703 : return lengths of arguments passed
+
 /**
  * @param {...(null|boolean|number|string|Array|Object)} args
  * @return {number}
@@ -8,4 +10,5 @@ var argumentsLength = function(...args) {
 
 /**
  * argumentsLength(1, 2, 3); // 3
+
  */
