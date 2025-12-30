@@ -1,3 +1,5 @@
+// 2695 : Array Wrapper
+
 var ArrayWrapper = function(nums) {
     this.nums = nums;
 
@@ -14,6 +16,7 @@ var ArrayWrapper = function(nums) {
     };
 };
 const obj1 = new ArrayWrapper([1, 2, 3]);
-console.log(obj1.valueOf()); // 6
-console.log(obj1.toString()); // "1,2,3"
+console.log(obj1.valueOf());
+console.log(obj1.toString()); 
+
 
