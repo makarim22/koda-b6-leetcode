@@ -1,3 +1,5 @@
+// 231. Power of Two
+
 var isPowerOfTwo = function(n) {
     if(n <= 0) return false;
     for(let i = 1; i <= n; i *= 2) {
@@ -5,5 +7,6 @@ var isPowerOfTwo = function(n) {
     }
     return n == 1;
 };
+
 
 console.log(isPowerOfTwo(18));
