@@ -1,3 +1,5 @@
+// 58. Length of Last World
+
 var lengthOfLastWord = function(string) {
     list = []
     list = string.trim().split(/\s+/)
@@ -8,4 +10,5 @@ string = "aku cinta kamuu  "
 x = "   fly me   to   the moon"
 // console.log(x.split(/\s+/))
 console.log(lengthOfLastWord(string))
+
 console.log(lengthOfLastWord(x))
