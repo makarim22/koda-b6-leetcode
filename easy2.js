@@ -1,3 +1,5 @@
+// 326. Power of Three
+
 /**
  * @param {number} n
  * @return {boolean}
@@ -13,5 +15,6 @@ var isPowerOfThree = function(n) {
     }
     return n==1;
 };
+
 
 console.log(isPowerOfThree(243));
