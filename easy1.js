@@ -1,3 +1,5 @@
+// 342) power of four
+
 var isPowerOfFour = function(n) {
     if(n <= 0) return false;
    for(let i = 1; i <= n; i *= 4) {
@@ -5,4 +7,5 @@ var isPowerOfFour = function(n) {
     }
     return n == 1;
 }
+
 
