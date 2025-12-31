@@ -1,3 +1,5 @@
+// 136. Single Number
+
 var singleNumber = function(nums) {
     for (let i = 0; i < nums.length; i++) {
         let count = 0;
@@ -13,3 +15,4 @@ var singleNumber = function(nums) {
 };  
 
 console.log(singleNumber([4,1,2,1,2]));
+
