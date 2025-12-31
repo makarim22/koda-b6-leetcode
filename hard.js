@@ -1,3 +1,5 @@
+// 4. median of two sorted arrays
+
 var findMedianSortedArrays = function(nums1, nums2) {
     arr = [...nums1, ...nums2]
     arrSorted = arr.sort((a, b) => a - b)
@@ -12,4 +14,5 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
 arr1 = [1, 3, 2 ]
 arr2 = [4, 6, 5, 8]
+
 console.log(findMedianSortedArrays(arr1, arr2))
